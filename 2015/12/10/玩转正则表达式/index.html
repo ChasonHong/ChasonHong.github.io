@@ -39,7 +39,7 @@
 <link href="/css/main.css?v=5.0.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="hexo," />
+  <meta name="keywords" content="JavaScript," />
 
 
 
@@ -57,28 +57,91 @@
 
 
 
-<meta name="description" content="什么是hexohexo是一个基于Node.js的静态博客程序，可以方便的生成静态网页托管在github和Heroku上。作者是来自台湾的[@tommy351][3]。引用他的话，hexo：
+<meta name="description" content="正则表达式
 
-快速、简单且功能强大的 Node.js 博客框架。A fast, simple &amp;amp; powerful blog framework, powered by Node.js.
+复习字符串操作
 
-类似于jekyll、Oc">
+indexOf     查找
+substring   获取子字符串
+charAt      获取某个字符
+split       分割字符串，获得数组
+
+
+找出字符串中的所有数字
+
+用传统字符串操作完成
+用正则表达式完成
+
+
+什么是正则表达式
+
+什么叫“正则”–规则、模式
+强大的字符串匹配工具
+
+
+正则的写法
+
+new RegExp(“a”)
+/a/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo系列教程 （一）hexo介绍">
-<meta property="og:url" content="http://yoursite.com/2015/12/06/hexo系列教程-（一）hexo介绍/index.html">
+<meta property="og:title" content="玩转正则表达式">
+<meta property="og:url" content="http://yoursite.com/2015/12/10/玩转正则表达式/index.html">
 <meta property="og:site_name" content="Chason's Notes">
-<meta property="og:description" content="什么是hexohexo是一个基于Node.js的静态博客程序，可以方便的生成静态网页托管在github和Heroku上。作者是来自台湾的[@tommy351][3]。引用他的话，hexo：
+<meta property="og:description" content="正则表达式
 
-快速、简单且功能强大的 Node.js 博客框架。A fast, simple &amp;amp; powerful blog framework, powered by Node.js.
+复习字符串操作
 
-类似于jekyll、Oc">
-<meta property="og:updated_time" content="2015-12-06T06:09:24.738Z">
+indexOf     查找
+substring   获取子字符串
+charAt      获取某个字符
+split       分割字符串，获得数组
+
+
+找出字符串中的所有数字
+
+用传统字符串操作完成
+用正则表达式完成
+
+
+什么是正则表达式
+
+什么叫“正则”–规则、模式
+强大的字符串匹配工具
+
+
+正则的写法
+
+new RegExp(“a”)
+/a/">
+<meta property="og:updated_time" content="2015-12-10T09:41:41.601Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo系列教程 （一）hexo介绍">
-<meta name="twitter:description" content="什么是hexohexo是一个基于Node.js的静态博客程序，可以方便的生成静态网页托管在github和Heroku上。作者是来自台湾的[@tommy351][3]。引用他的话，hexo：
+<meta name="twitter:title" content="玩转正则表达式">
+<meta name="twitter:description" content="正则表达式
 
-快速、简单且功能强大的 Node.js 博客框架。A fast, simple &amp;amp; powerful blog framework, powered by Node.js.
+复习字符串操作
 
-类似于jekyll、Oc">
+indexOf     查找
+substring   获取子字符串
+charAt      获取某个字符
+split       分割字符串，获得数组
+
+
+找出字符串中的所有数字
+
+用传统字符串操作完成
+用正则表达式完成
+
+
+什么是正则表达式
+
+什么叫“正则”–规则、模式
+强大的字符串匹配工具
+
+
+正则的写法
+
+new RegExp(“a”)
+/a/">
 
 
 
@@ -96,7 +159,7 @@
   };
 </script>
 
-  <title> hexo系列教程 （一）hexo介绍 | Chason's Notes </title>
+  <title> 玩转正则表达式 | Chason's Notes </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -262,7 +325,7 @@
             
             
               
-                hexo系列教程 （一）hexo介绍
+                玩转正则表达式
               
             
           </h1>
@@ -274,8 +337,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-12-06T14:08:30+08:00" content="2015-12-06">
-              2015-12-06
+            <time itemprop="dateCreated" datetime="2015-12-10T17:40:34+08:00" content="2015-12-10">
+              2015-12-10
             </time>
           </span>
 
@@ -288,8 +351,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">hexo</span>
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
                   </a>
                 </span>
 
@@ -304,8 +367,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2015/12/06/hexo系列教程-（一）hexo介绍/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/06/hexo系列教程-（一）hexo介绍/" itemprop="commentsCount"></span>
+                <a href="/2015/12/10/玩转正则表达式/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/10/玩转正则表达式/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -326,23 +389,36 @@
       
 
       
-        <h3 id="u4EC0_u4E48_u662Fhexo"><a href="#u4EC0_u4E48_u662Fhexo" class="headerlink" title="什么是hexo"></a>什么是hexo</h3><p>hexo是一个基于Node.js的静态博客程序，可以方便的生成静态网页托管在github和Heroku上。作者是来自台湾的[@tommy351][3]。引用他的话，hexo：</p>
-<blockquote>
-<p>快速、简单且功能强大的 Node.js 博客框架。<br>A fast, simple &amp; powerful blog framework, powered by Node.js.</p>
-</blockquote>
-<p>类似于jekyll、Octopress、Wordpress，我们可以用hexo创建自己的博客，托管到github或Heroku上，绑定自己的域名，用markdown写文章。本博客即使用hexo创建并托管在github上。</p>
-<h3 id="u4E3A_u4EC0_u4E48_u8981_u7528hexo"><a href="#u4E3A_u4EC0_u4E48_u8981_u7528hexo" class="headerlink" title="为什么要用hexo"></a>为什么要用hexo</h3><p>还是引用下作者的话：</p>
-<blockquote>
-<p>不可思议的快速 ─ 只要一眨眼静态文件即生成完成<br>支持 Markdown<br>仅需一道指令即可部署到 GitHub Pages 和 Heroku<br>已移植 Octopress 插件<br>高扩展性、自订性<br>兼容于 Windows, Mac &amp; Linux</p>
-</blockquote>
-<p>我再加几条：</p>
+        <h3 id="u6B63_u5219_u8868_u8FBE_u5F0F"><a href="#u6B63_u5219_u8868_u8FBE_u5F0F" class="headerlink" title="正则表达式"></a>正则表达式</h3><blockquote>
 <ul>
-<li>易用。不仅部署简单，平时使用中仅需要hexo new hexo generate hexo server hexo deploy四个命令。不像Jekyll需要很多繁琐的git命令。</li>
-<li>轻。文件少、小，易理解，方便自定义。</li>
-<li>用户多。虽然赶不上Jekyll和Octopress，但遇到什么问题都能搜索到答案，或者找到同样使用hexo的用户进行参考和咨询。</li>
+<li><p>复习字符串操作</p>
+<ul>
+<li>indexOf     查找</li>
+<li>substring   获取子字符串</li>
+<li>charAt      获取某个字符</li>
+<li>split       分割字符串，获得数组</li>
 </ul>
-<h3 id="u8C01_u80FD_u4F7F_u7528hexo"><a href="#u8C01_u80FD_u4F7F_u7528hexo" class="headerlink" title="谁能使用hexo"></a>谁能使用hexo</h3><p>这是一个免费开源的博客程序，任何人都可以使用和修改。但是不同于wordpress，hexo由于需要使用Github,Git,Markdown,Node.js这样的工具，好多插件、widget都需要自己安装、设置。所以适合那些有一定计算机基础，喜欢折腾的人。但是，不要恐惧，只要跟着本教程走，就能很方便地让自己的博客”飞起来”。</p>
-<h3 id="u600E_u6837_u642D_u5EFAhexo_u535A_u5BA2"><a href="#u600E_u6837_u642D_u5EFAhexo_u535A_u5BA2" class="headerlink" title="怎样搭建hexo博客"></a>怎样搭建hexo博客</h3><p>正题来了，请期待下一节。</p>
+</li>
+<li><p>找出字符串中的所有数字</p>
+<ul>
+<li>用传统字符串操作完成</li>
+<li>用正则表达式完成</li>
+</ul>
+</li>
+<li><p>什么是正则表达式</p>
+<ul>
+<li>什么叫“正则”<br>–规则、模式</li>
+<li>强大的字符串匹配工具</li>
+</ul>
+</li>
+<li><p>正则的写法</p>
+<ul>
+<li>new RegExp(“a”)</li>
+<li>/a/</li>
+</ul>
+</li>
+</ul>
+</blockquote>
 
       
     </div>
@@ -351,25 +427,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hexo/" rel="tag">#hexo</a>
+            <a href="/tags/JavaScript/" rel="tag">#JavaScript</a>
           
         </div>
       
 
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2015/12/01/玩转正则表达式/" rel="next" title="玩转正则表达式">
-                <i class="fa fa-chevron-left"></i> 玩转正则表达式
-              </a>
-            
-          </div>
-
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
-        </div>
       
 
       
@@ -381,10 +443,10 @@
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2015/12/06/hexo系列教程-（一）hexo介绍/"
-     data-title="hexo系列教程 （一）hexo介绍"
+        <div class="ds-share flat" data-thread-key="2015/12/10/玩转正则表达式/"
+     data-title="玩转正则表达式"
      data-content=""
-     data-url="http://yoursite.com/2015/12/06/hexo系列教程-（一）hexo介绍/">
+     data-url="http://yoursite.com/2015/12/10/玩转正则表达式/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -410,8 +472,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2015/12/06/hexo系列教程-（一）hexo介绍/"
-           data-title="hexo系列教程 （一）hexo介绍" data-url="http://yoursite.com/2015/12/06/hexo系列教程-（一）hexo介绍/">
+      <div class="ds-thread" data-thread-key="2015/12/10/玩转正则表达式/"
+           data-title="玩转正则表达式" data-url="http://yoursite.com/2015/12/10/玩转正则表达式/">
       </div>
     
   </div>
@@ -456,21 +518,21 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
           <div class="site-state-item site-state-categories">
             <a href="/categories">
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">分类</span>
               </a>
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
@@ -550,7 +612,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#u4EC0_u4E48_u662Fhexo"><span class="nav-number">1.</span> <span class="nav-text">什么是hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u4E3A_u4EC0_u4E48_u8981_u7528hexo"><span class="nav-number">2.</span> <span class="nav-text">为什么要用hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u8C01_u80FD_u4F7F_u7528hexo"><span class="nav-number">3.</span> <span class="nav-text">谁能使用hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u600E_u6837_u642D_u5EFAhexo_u535A_u5BA2"><span class="nav-number">4.</span> <span class="nav-text">怎样搭建hexo博客</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#u6B63_u5219_u8868_u8FBE_u5F0F"><span class="nav-number">1.</span> <span class="nav-text">正则表达式</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
