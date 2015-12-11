@@ -1330,8 +1330,8 @@ pre .javascript .function {
 .posts-expand .post-eof {
   display: block;
   margin: 17% auto 13%;
-  width: 17%;
-  border-bottom: 1px dashed #ccc;
+  width: 23%;
+  border-bottom: 2px dashed #ccc;
   text-align: center;
 }
 .post:last-child .post-eof.post-eof.post-eof {
@@ -1514,7 +1514,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #abffab;
+  background: #8fe29c;
 }
 .sidebar-nav {
   margin: 0 0 20px;
